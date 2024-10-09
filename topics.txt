@@ -1,0 +1,33 @@
+
+RULES OF JS :    
+
+* reference name should not contain any space
+ var first Name = " sam "
+
+ * reference name should not start with number 
+     var 1day = "sam"
+     var day1 = "sam"
+
+*reference name should not contain hypen ,double quote , single quote.
+    var "first name" = "sam".
+
+*variable type must be in camel case 
+    var firstname = "sam"
+
+* reference name can contain underscore
+    var first_name = "sam"
+
+
+
+
+COPY BY VALUE :
+
+Copy by value involves creating a duplicate of the original data, independent of the original. 
+Any changes made to the duplicate do not affect the original data.
+
+
+COPY BY REFERENCE :
+
+Copy by reference" involves creating a new reference to the original data, rather than duplicating it. 
+Any modifications made through one reference affect the original data and are visible through all references
+pointing to it.
